@@ -1,0 +1,129 @@
+body {
+	font-family: Arial;
+	color: #211a1a;
+	font-size: 0.9em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#product-grid {
+	margin: 0px auto;
+	width: 390px;
+}
+
+.txt-heading {
+	color: #211a1a;
+	font-weight: bold;
+	font-size: xxx-large;
+	white-space: nowrap;
+	margin: 60px 0px 20px 0px;
+}
+
+.btnAddAction {
+	padding: 10px 20px;
+	background-color: #fb7f1d;
+	border: #232323 1px solid;
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+#product-grid .txt-heading {
+	margin-bottom: 5px;
+	margin-left: 80px;
+}
+
+.product-item {
+	background: #ffffff;
+	margin: 0px 30px 0px 0px;
+	padding: 20px 30px;
+	border: #E0E0E0 1px solid;
+	border-radius: 3px;
+}
+
+.quantity {
+	padding: 10px 10px 10px 0px;
+}
+
+.product-price {
+	margin-bottom: 10px;
+}
+
+.product-title {
+	margin-bottom: 20px;
+}
+
+.product-quantity {
+	padding: 5px 10px;
+}
+
+.product-tile-footer {
+	padding: 15px 15px 0px 15px;
+}
+
+input.input-box {
+	border: 1px solid #9a9a9a;
+	width: 100%;
+	border-radius: 3px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.form-label {
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.row {
+	margin: 15px 0px;
+}
+
+input.checkout {
+	background-color: #1984ba;
+	border: #0a384f 1px solid;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+	color: #FFF;
+	width: 100%;
+	border-radius: 3px;
+}
+
+#checkout-form .error {
+	color: #ee0000;
+	padding: 0px;
+	background: none;
+	border: #ee0000;
+}
+
+#customer-detail {
+	display: none;
+	padding-top: 15px;
+	width: 390px;
+	margin: 0 auto;
+}
+
+#checkout-form .error:before {
+	content: '*';
+	padding: 0 3px;
+	color: #D8000C;
+}
+
+#loader {
+	display: none;
+}
+
+.error {
+	padding: 6px 20px;
+	border-radius: 3px;
+	background-color: #fb817c;
+	border: 1px solid #e46b66;
+	width: 300px;
+}
+
+.success {
+	padding: 0px 5px 10px 10px;
+	margin: 40px;
+	line-height: 25px;
+}
